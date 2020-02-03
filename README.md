@@ -2,7 +2,9 @@
 <img width="1325" alt="スクリーンショット 2020-02-02 18 00 50" src="https://user-images.githubusercontent.com/58324998/73624200-33af2d80-4683-11ea-804f-af77d3c28871.png">
   
 p5.jsとcssアニメーションを用いたアート作品
-＊＊＊
+   
+***
+
 # :dizzy: YouTube
 https://youtu.be/F4LpwbYw2c8
 
