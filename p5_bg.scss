@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(bottom, rgb(0, 0, 31),rgb(245, 245, 245)); 
+  background: -webkit-linear-gradient(bottom, rgb(3, 3, 43), rgb(130, 130, 165)); 
+  background: linear-gradient(to top, rgb(11, 11, 77), rgb(180, 179, 186)); 
+
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+.han{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.back{
+  // position: relative;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  padding: 100px;
+  // background-color: blue;
+}
+.b_pic{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  box-shadow: 20px 20px 20px 20px rgba(38, 37, 37, 0.4);;
+  background: -moz-linear-gradient(bottom, rgb(1, 1, 255), rgb(181, 181, 255)); 
+  background: -webkit-linear-gradient(bottom, rgb(38, 38, 250), rgb(47, 47, 65)); 
+  background: linear-gradient(to top, blue, rgb(255, 255, 255)); 
+      // background: -moz-linear-gradient(開始位置, 開始色, 終了色); 
+      // background: -webkit-linear-gradient(開始位置, 開始色, 終了色); 
+      // background: linear-gradient(to 方向, 開始色, 終了色); 
+    
+}
+.pic{
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+#defaultCanvas0{
+  position: absolute;
+  top: 150px;
+  left: 38%;
+  z-index: 100;
+}
+
+.noise{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+.noise {
+	background: url(nnize.png);
+  animation: noise_anima 1s steps(10) infinite;
+  opacity:0.1; 
+  z-index: 200;
+}
+
+@keyframes noise_anima {
+	from { background-position: 0 0; }
+  to { background-position: 123px 456px; }
+  
+}
